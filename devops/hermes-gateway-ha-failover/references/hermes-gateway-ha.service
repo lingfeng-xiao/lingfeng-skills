@@ -1,0 +1,12 @@
+[Unit]
+Description=Hermes Gateway HA Monitor
+After=hermes-gateway.service
+
+[Service]
+Type=simple
+ExecStart=%h/.hermes/memory/gateway-ha/health-local.js --daemon
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

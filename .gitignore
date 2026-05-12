@@ -1,0 +1,21 @@
+# 临时文件
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.DS_Store
+node_modules/
+vendor/
+dist/
+build/
+*.log
+
+# 敏感信息
+*.key
+*.pem
+*.secret
+credentials.json
+token.json
+config.yaml
+config.yml
+.env

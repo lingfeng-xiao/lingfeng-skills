@@ -1,0 +1,4 @@
+interface:
+  display_name: "Configure Mihomo Proxy"
+  short_description: "Configure mihomo proxy routing for Codex, Claude, and Hermes."
+  default_prompt: "Configure mihomo proxy routing for this server."

@@ -1,0 +1,19 @@
+{
+  "local": {
+    "gateway_service": "hermes-gateway",
+    "check_interval_sec": 30,
+    "consecutive_failures": 3,
+    "restart_attempts": 2,
+    "restart_cooldown_sec": 10
+  },
+  "remote": {
+    "host": "jd",
+    "ssh_port": 2222,
+    "gateway_service": "hermes-gateway",
+    "ilink_timeout_sec": 420
+  },
+  "notification": {
+    "enabled": true,
+    "command": "notify-send"
+  }
+}
